@@ -1,4 +1,4 @@
-### Buffer Overflow
+# Buffer Overflow
 
 A buffer overflow, or buffer overrun, is a common software coding mistake that an attacker could exploit to gain access to your system. To effectively mitigate buffer overflow vulnerabilities, it is important to understand what buffer overflows are, what dangers they pose to your applications, and what techniques attackers use to successfully exploit these vulnerabilities.
 
@@ -7,7 +7,7 @@ A buffer overflow, or buffer overrun, is a common software coding mistake that a
 - C and C++ are more susceptible to buffer overflow.
 - Secure development practices should include regular testing to detect and fix buffer overflows. These practices include automatic protection at the language level and bounds-checking at run-time.
 
-# Definition of a Buffer Overflow
+### Definition of a Buffer Overflow
 
 A buffer is a sequential section of memory allocated to contain anything from a character string to an array of integers. A buffer overflow, or buffer overrun, occurs when more data is put into a fixed-length buffer than the buffer can handle. The extra information, which has to go somewhere, can overflow into adjacent memory space, corrupting or overwriting the data held in that space. This overflow usually results in a system crash, but it also creates the opportunity for an attacker to run arbitrary code or manipulate the coding errors to prompt malicious actions.
 
@@ -17,7 +17,7 @@ Cybercriminals exploit buffer overflow problems to alter the execution path of t
 
 Coding errors are typically the cause of buffer overflow. Common application development mistakes that can lead to buffer overflow include failing to allocate large enough buffers and neglecting to check for overflow problems. These mistakes are especially problematic with C/C++, which does not have built-in protection against buffer overflows. Consequently, C/C++ applications are often targets of buffer overflow attacks.
 
-# Buffer Overflow Attack Example
+### Buffer Overflow Attack Example
 
 In some cases, an attacker injects malicious code into the memory that has been corrupted by the overflow. In other cases, the attacker simply takes advantage of the overflow and its corruption of the adjacent memory. For example, consider a program that requests a user password in order to grant the user access to the system. In the code below, the correct password grants the user root privileges. If the password is incorrect, the program will not grant the user privileges.
 
