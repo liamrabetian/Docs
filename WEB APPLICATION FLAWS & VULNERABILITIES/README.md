@@ -1,3 +1,11 @@
+
+<details>
+<summary>Translations:</summary>
+
+- [Persian/فارسی](translations/README-pe.md)
+</details>
+
+
 # Buffer Overflow
 
 A buffer overflow, or buffer overrun, is a common software coding mistake that an attacker could exploit to gain access to your system. To effectively mitigate buffer overflow vulnerabilities, it is important to understand what buffer overflows are, what dangers they pose to your applications, and what techniques attackers use to successfully exploit these vulnerabilities.
